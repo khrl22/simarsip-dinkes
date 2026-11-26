@@ -64,7 +64,7 @@
                         <input type="text" 
                                name="username" 
                                id="usernameInput" 
-                               value="{{ old('username', 'Ati') }}" 
+                               value="{{ old('username', 'bagianpengarsipan') }}" 
                                placeholder="Masukkan username" 
                                required
                                class="w-full pl-10 pr-3.5 py-2.5 text-xs rounded-lg border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-slate-800 placeholder:text-slate-400 transition-all font-medium">
@@ -81,7 +81,7 @@
                         <input type="password" 
                                name="password" 
                                id="passwordInput" 
-                               value="Dinkeskotabandung123" 
+                               value="dinkes321" 
                                placeholder="Masukkan kata sandi" 
                                required
                                class="w-full pl-10 pr-10 py-2.5 text-xs rounded-lg border {{ $errors->has('password') ? 'border-rose-400 ring-1 ring-rose-300' : 'border-slate-200' }} bg-white focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 text-slate-800 placeholder:text-slate-400 transition-all font-medium">
@@ -131,14 +131,14 @@
                 <span class="text-[10px] text-slate-400 block mb-1.5 font-medium">Akun Demo Tersedia:</span>
                 <div class="flex items-center justify-center gap-2 text-[10px]">
                     <button type="button" 
-                            onclick="fillCredentials('Ati', 'Dinkeskotabandung123')"
+                            onclick="fillCredentials('bagianpengarsipan', 'dinkes321')"
                             class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 hover:bg-slate-200 font-semibold border border-slate-200">
-                        Admin (Ati)
+                        Admin (Bagian Pengarsipan)
                     </button>
                     <button type="button" 
-                            onclick="fillCredentials('staff', 'dinkeskotabandung')"
+                            onclick="fillCredentials('staf', 'dinkes321')"
                             class="px-2.5 py-1 rounded bg-slate-100 text-slate-700 hover:bg-slate-200 font-semibold border border-slate-200">
-                        Staf (Staff)
+                        Staf (Staf)
                     </button>
                 </div>
             </div>
